@@ -1,25 +1,23 @@
+import Welcome from './snippets/class-component'
+import ClassLifecycle from './snippets/class-lifecycle'
+import FunctionalLifecycle from './snippets/functional-lifecycle';
+import Otp from './snippets/impiger';
+import NavMain from './snippets/nav';
+import Children from './snippets/children';
+import Title from './snippets/state';
+import JSONSchema from './snippets/json-schema';
+
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<header className="App-header">
+				<JSONSchema />
+			</header>
+		</div>
+	);
 }
 
 export default App;

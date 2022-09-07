@@ -1,0 +1,11 @@
+a {
+	color: white;
+
+	&.active {
+		color: blue
+	}
+
+	&.disabled {
+		color: grey;
+	}
+}
